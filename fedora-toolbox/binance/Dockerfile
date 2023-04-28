@@ -1,4 +1,4 @@
-FROM localhost/andersrh/fedora-toolbox/gui
+FROM localhost/andersrh/fedora-toolbox/base-gui
 
 WORKDIR /app
 RUN wget https://download.binance.com/electron-desktop/linux/production/binance-x86_64-linux.rpm \

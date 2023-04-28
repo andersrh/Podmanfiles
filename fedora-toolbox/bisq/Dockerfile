@@ -1,4 +1,4 @@
-FROM localhost/andersrh/fedora-toolbox/gui
+FROM localhost/andersrh/fedora-toolbox/base-gui
 
 WORKDIR /app
 ENV JAVA_TOOL_OPTIONS "-Dglass.gtk.uiScale=2"
