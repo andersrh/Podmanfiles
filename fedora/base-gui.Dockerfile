@@ -16,3 +16,4 @@ RUN dnf install -y libva-intel-driver gstreamer1-plugin-openh264 ffmpeg libva-ut
 RUN dnf install -y dbus-glib pciutils-libs
 RUN dnf -y install fuse
 RUN dnf install -y firefox
+RUN dnf update -y && dnf clean packages
