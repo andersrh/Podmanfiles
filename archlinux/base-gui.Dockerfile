@@ -20,3 +20,4 @@ RUN pacman -Sy --noconfirm libva libva-intel-driver libva-mesa-driver libva-util
 RUN pacman -Sy --noconfirm nss atk cups gtk3 alsa-lib
 RUN pacman -Sy --noconfirm xdg-utils
 RUN pacman -Sy --noconfirm nano ibus dbus-glib
+RUN pacman -Sy --noconfirm ttf-dejavu noto-fonts ttf-liberation
